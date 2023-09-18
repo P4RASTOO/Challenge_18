@@ -73,8 +73,7 @@ class Block:
 
     # @TODO
     # Rename the `data` attribute to `record`, and set the data type to `Record`
-    data: Any
-
+    record: Record 
     creator_id: int
     prev_hash: str = "0"
     timestamp: str = datetime.datetime.utcnow().strftime("%H:%M:%S")
@@ -144,7 +143,7 @@ class PyChain:
 # Adds the cache decorator for Streamlit
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache_data
 def setup():
     print("Initializing Chain")
     return PyChain([Block("Genesis", 0)])
@@ -194,7 +193,7 @@ if st.button("Add Block"):
     # which is set equal to a `Record` that contains the `sender`, `receiver`,
     # and `amount` values
     new_block = Block(
-        record=Record(sender=sender, receiver=receiver, amount=amount),
+        record = Record(sender, receiver, amount),
         creator_id=42,
         prev_hash=prev_block_hash
     )
