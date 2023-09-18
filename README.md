@@ -25,8 +25,7 @@ Blockchain validation is performed to ensure the integrity of the ledger.
 ## Methods Used:
 The analysis employs the following methods and technologies:
 
-* Python Programming: Python is the primary programming language used to create the blockchain ledger and the Streamlit web interface.
-* Blockchain Principles: The code follows basic blockchain principles, including hashing with hashlib, proof-of-work for block mining, and chain validation.
+* Blockchain Principles: The analysis follows basic blockchain principles, including hashing with hashlib, proof-of-work for block mining, and chain validation.
 * Data Classes: Python data classes are utilized to define the structure of financial transaction records and blocks.
 * Streamlit: The Streamlit library is used to develop the web interface, making it easy for users to interact with the blockchain.
 
