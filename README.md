@@ -34,6 +34,8 @@ The analysis demonstrates the creation of a simple blockchain ledger called "PyC
 
 ## Recommendation:
 This analysis serves as a foundational example of blockchain development and interaction through a user-friendly interface. We can extend the analysis further by integrating real financial data sources or APIs to simulate real-world financial transactions. We can as well, implement more advanced security features, such as cryptographic signatures and private keys, to improve the security of financial transactions.
+
+
 <img width="617" alt="Screenshot 2023-09-21 at 1 34 48 AM" src="https://github.com/P4RASTOO/Challenge_18/assets/132952512/951be21d-ebad-4846-83f2-f0c06800fcfa">
 
 
