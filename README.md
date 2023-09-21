@@ -38,5 +38,6 @@ This analysis serves as a foundational example of blockchain development and int
 
 <img width="617" alt="Screenshot 2023-09-21 at 1 34 48 AM" src="https://github.com/P4RASTOO/Challenge_18/assets/132952512/951be21d-ebad-4846-83f2-f0c06800fcfa">
 
+<img width="288" alt="Screenshot 2023-09-21 at 1 52 16 AM" src="https://github.com/P4RASTOO/Challenge_18/assets/132952512/503c36f4-501c-44db-a1f4-373f6d451184">
 
 
